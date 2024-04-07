@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="717.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controller.ChessController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="91.0" text="Chess">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="a8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="53.0" layoutY="43.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="a2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="53.0" layoutY="361.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="a6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="53.0" layoutY="149.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="a1" arcHeight="5.0" arcWidth="5.0" fill="#256bf7" height="53.0" layoutX="53.0" layoutY="414.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="a3" arcHeight="5.0" arcWidth="5.0" fill="#256af5de" height="53.0" layoutX="53.0" layoutY="308.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="a5" arcHeight="5.0" arcWidth="5.0" fill="#256af5bf" height="53.0" layoutX="53.0" layoutY="202.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="a4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="53.0" layoutY="255.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="a7" arcHeight="5.0" arcWidth="5.0" fill="#256af5a1" height="53.0" layoutX="53.0" layoutY="96.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="b8" arcHeight="5.0" arcWidth="5.0" fill="#256bf791" height="53.0" layoutX="106.0" layoutY="43.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="b7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="106.0" layoutY="96.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="c8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="159.0" layoutY="43.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="c7" arcHeight="5.0" arcWidth="5.0" fill="#256af5a1" height="53.0" layoutX="159.0" layoutY="96.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="c6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="159.0" layoutY="149.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="d6" arcHeight="5.0" arcWidth="5.0" fill="#256af5b0" height="53.0" layoutX="212.0" layoutY="149.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="e5" arcHeight="5.0" arcWidth="5.0" fill="#256af5bf" height="53.0" layoutX="265.0" layoutY="202.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="e6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="265.0" layoutY="149.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="e7" arcHeight="5.0" arcWidth="5.0" fill="#256af5a1" height="53.0" layoutX="265.0" layoutY="96.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="d4" arcHeight="5.0" arcWidth="5.0" fill="#256af5cf" height="53.0" layoutX="212.0" layoutY="255.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="d2" arcHeight="5.0" arcWidth="5.0" fill="#256af5ed" height="53.0" layoutX="212.0" layoutY="361.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="c1" arcHeight="5.0" arcWidth="5.0" fill="#256bf7" height="53.0" layoutX="159.0" layoutY="414.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="c3" arcHeight="5.0" arcWidth="5.0" fill="#256af5de" height="53.0" layoutX="159.0" layoutY="308.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="b5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="106.0" layoutY="202.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="c2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="159.0" layoutY="361.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="d7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="212.0" layoutY="96.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="d8" arcHeight="5.0" arcWidth="5.0" fill="#256af591" height="53.0" layoutX="212.0" layoutY="43.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="e8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="265.0" layoutY="43.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="d1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="212.0" layoutY="414.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="b6" arcHeight="5.0" arcWidth="5.0" fill="#256af5b0" height="53.0" layoutX="106.0" layoutY="149.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="e3" arcHeight="5.0" arcWidth="5.0" fill="#256af5de" height="53.0" layoutX="265.0" layoutY="308.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="d5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="212.0" layoutY="202.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="b3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="106.0" layoutY="308.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="b2" arcHeight="5.0" arcWidth="5.0" fill="#256af5ed" height="53.0" layoutX="106.0" layoutY="361.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="b4" arcHeight="5.0" arcWidth="5.0" fill="#256af5cf" height="53.0" layoutX="106.0" layoutY="255.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="c5" arcHeight="5.0" arcWidth="5.0" fill="#256af5bf" height="53.0" layoutX="159.0" layoutY="202.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="c4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="159.0" layoutY="255.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="e4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="265.0" layoutY="255.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="e2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="265.0" layoutY="361.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="d3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="212.0" layoutY="308.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="b1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="106.0" layoutY="414.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="e1" arcHeight="5.0" arcWidth="5.0" fill="#256bf7" height="53.0" layoutX="265.0" layoutY="414.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="g7" arcHeight="5.0" arcWidth="5.0" fill="#256af5a1" height="53.0" layoutX="371.0" layoutY="96.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="g8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="371.0" layoutY="43.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="f8" arcHeight="5.0" arcWidth="5.0" fill="#256af591" height="53.0" layoutX="318.0" layoutY="43.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="f7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="318.0" layoutY="96.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="f6" arcHeight="5.0" arcWidth="5.0" fill="#256af5b0" height="53.0" layoutX="318.0" layoutY="149.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="f5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="318.0" layoutY="202.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="f4" arcHeight="5.0" arcWidth="5.0" fill="#276cf5cf" height="53.0" layoutX="318.0" layoutY="255.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="f3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="318.0" layoutY="308.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="f2" arcHeight="5.0" arcWidth="5.0" fill="#256af5ed" height="53.0" layoutX="318.0" layoutY="361.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="f1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="318.0" layoutY="414.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="h5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="424.0" layoutY="202.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="h4" arcHeight="5.0" arcWidth="5.0" fill="#276cf5cf" height="53.0" layoutX="424.0" layoutY="255.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="h3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="424.0" layoutY="308.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="h2" arcHeight="5.0" arcWidth="5.0" fill="#256af5ed" height="53.0" layoutX="424.0" layoutY="361.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="h1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="424.0" layoutY="414.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="h8" arcHeight="5.0" arcWidth="5.0" fill="#256af591" height="53.0" layoutX="424.0" layoutY="43.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="g1" arcHeight="5.0" arcWidth="5.0" fill="#256bf7" height="53.0" layoutX="371.0" layoutY="414.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="g2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="371.0" layoutY="361.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="g3" arcHeight="5.0" arcWidth="5.0" fill="#256af5de" height="53.0" layoutX="371.0" layoutY="308.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="g4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="371.0" layoutY="255.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="g5" arcHeight="5.0" arcWidth="5.0" fill="#256af5bf" height="53.0" layoutX="371.0" layoutY="202.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="g6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="371.0" layoutY="149.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="h7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="53.0" layoutX="424.0" layoutY="96.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <Rectangle fx:id="h6" arcHeight="5.0" arcWidth="5.0" fill="#256af5b0" height="53.0" layoutX="424.0" layoutY="149.0" onMouseClicked="#handleSquareClick" onMouseEntered="#handleSquareEnter" onMouseExited="#handleSquareExit" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+      <ImageView fx:id="f8i" fitHeight="43.0" fitWidth="43.0" layoutX="323.0" layoutY="48.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_bishop.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="e7i" fitHeight="43.0" fitWidth="43.0" layoutX="270.0" layoutY="101.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="e7i19" fitHeight="43.0" fitWidth="43.0" layoutX="598.0" layoutY="142.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="e7i110" fitHeight="43.0" fitWidth="43.0" layoutX="524.0" layoutY="159.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="f6i" fitHeight="43.0" fitWidth="43.0" layoutX="323.0" layoutY="153.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="f5i" fitHeight="43.0" fitWidth="43.0" layoutX="323.0" layoutY="207.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="f4i" fitHeight="43.0" fitWidth="43.0" layoutX="323.0" layoutY="260.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="f3i" fitHeight="43.0" fitWidth="43.0" layoutX="323.0" layoutY="313.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="f2i" fitHeight="43.0" fitWidth="43.0" layoutX="323.0" layoutY="366.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="f1i" fitHeight="43.0" fitWidth="43.0" layoutX="323.0" layoutY="419.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_bishop.png" />
+         </image></ImageView>
+      <ImageView fx:id="e1i" fitHeight="43.0" fitWidth="43.0" layoutX="270.0" layoutY="419.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_king.png" />
+         </image></ImageView>
+      <ImageView fx:id="e2i" fitHeight="43.0" fitWidth="43.0" layoutX="270.0" layoutY="366.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="e3i" fitHeight="43.0" fitWidth="43.0" layoutX="270.0" layoutY="313.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="e4i" fitHeight="43.0" fitWidth="43.0" layoutX="270.0" layoutY="260.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="e5i" fitHeight="43.0" fitWidth="43.0" layoutX="270.0" layoutY="207.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="e6i" fitHeight="43.0" fitWidth="43.0" layoutX="270.0" layoutY="154.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="e8i" fitHeight="43.0" fitWidth="43.0" layoutX="270.0" layoutY="48.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_king.png" />
+         </image></ImageView>
+      <ImageView fx:id="d8i" fitHeight="43.0" fitWidth="43.0" layoutX="217.0" layoutY="48.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_queen.png" />
+         </image></ImageView>
+      <ImageView fx:id="d7i" fitHeight="43.0" fitWidth="43.0" layoutX="217.0" layoutY="101.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="d6i" fitHeight="43.0" fitWidth="43.0" layoutX="217.0" layoutY="154.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="d5i" fitHeight="43.0" fitWidth="43.0" layoutX="217.0" layoutY="207.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="d4i" fitHeight="43.0" fitWidth="43.0" layoutX="217.0" layoutY="260.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="d3i" fitHeight="43.0" fitWidth="43.0" layoutX="217.0" layoutY="313.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="d2i" fitHeight="43.0" fitWidth="43.0" layoutX="217.0" layoutY="366.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="d1i" fitHeight="43.0" fitWidth="43.0" layoutX="217.0" layoutY="419.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_queen.png" />
+         </image></ImageView>
+      <ImageView fx:id="c1i" fitHeight="43.0" fitWidth="43.0" layoutX="164.0" layoutY="419.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_bishop.png" />
+         </image></ImageView>
+      <ImageView fx:id="c2i" fitHeight="43.0" fitWidth="43.0" layoutX="164.0" layoutY="366.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="c3i" fitHeight="43.0" fitWidth="43.0" layoutX="164.0" layoutY="313.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="c4i" fitHeight="43.0" fitWidth="43.0" layoutX="164.0" layoutY="260.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="c5i" fitHeight="43.0" fitWidth="43.0" layoutX="164.0" layoutY="207.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="c6i" fitHeight="43.0" fitWidth="43.0" layoutX="164.0" layoutY="153.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="c7i" fitHeight="43.0" fitWidth="43.0" layoutX="164.0" layoutY="101.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="c8i" fitHeight="43.0" fitWidth="43.0" layoutX="164.0" layoutY="48.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_bishop.png" />
+         </image></ImageView>
+      <ImageView fx:id="b8i" fitHeight="43.0" fitWidth="43.0" layoutX="111.0" layoutY="48.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_knight.png" />
+         </image></ImageView>
+      <ImageView fx:id="b7i" fitHeight="43.0" fitWidth="43.0" layoutX="111.0" layoutY="101.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="b6i" fitHeight="43.0" fitWidth="43.0" layoutX="111.0" layoutY="154.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="b5i" fitHeight="43.0" fitWidth="43.0" layoutX="111.0" layoutY="207.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="b4i" fitHeight="43.0" fitWidth="43.0" layoutX="111.0" layoutY="260.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="b3i" fitHeight="43.0" fitWidth="43.0" layoutX="111.0" layoutY="313.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="b2i" fitHeight="43.0" fitWidth="43.0" layoutX="111.0" layoutY="366.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="b1i" fitHeight="43.0" fitWidth="43.0" layoutX="111.0" layoutY="419.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_knight.png" />
+         </image></ImageView>
+      <ImageView fx:id="a1i" fitHeight="43.0" fitWidth="43.0" layoutX="58.0" layoutY="419.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_rook.png" />
+         </image></ImageView>
+      <ImageView fx:id="a2i" fitHeight="43.0" fitWidth="43.0" layoutX="58.0" layoutY="366.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="a3i" fitHeight="43.0" fitWidth="43.0" layoutX="58.0" layoutY="313.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="a4i" fitHeight="43.0" fitWidth="43.0" layoutX="58.0" layoutY="260.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="a5i" fitHeight="43.0" fitWidth="43.0" layoutX="58.0" layoutY="207.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="a6i" fitHeight="43.0" fitWidth="43.0" layoutX="58.0" layoutY="154.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="a8i" fitHeight="43.0" fitWidth="43.0" layoutX="58.0" layoutY="48.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_rook.png" />
+         </image></ImageView>
+      <ImageView fx:id="h8i" fitHeight="43.0" fitWidth="43.0" layoutX="429.0" layoutY="48.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_rook.png" />
+         </image></ImageView>
+      <ImageView fx:id="h7i" fitHeight="43.0" fitWidth="43.0" layoutX="429.0" layoutY="102.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="h6i" fitHeight="43.0" fitWidth="43.0" layoutX="429.0" layoutY="153.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="h5i" fitHeight="43.0" fitWidth="43.0" layoutX="429.0" layoutY="207.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="h4i" fitHeight="43.0" fitWidth="43.0" layoutX="429.0" layoutY="260.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="h3i" fitHeight="43.0" fitWidth="43.0" layoutX="429.0" layoutY="313.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="h2i" fitHeight="43.0" fitWidth="43.0" layoutX="429.0" layoutY="366.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="h1i" fitHeight="43.0" fitWidth="43.0" layoutX="429.0" layoutY="419.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_rook.png" />
+         </image></ImageView>
+      <ImageView fx:id="g1i" fitHeight="43.0" fitWidth="43.0" layoutX="376.0" layoutY="419.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_knight.png" />
+         </image></ImageView>
+      <ImageView fx:id="g2i" fitHeight="43.0" fitWidth="43.0" layoutX="376.0" layoutY="366.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/w_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="g3i" fitHeight="43.0" fitWidth="43.0" layoutX="376.0" layoutY="313.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="g4i" fitHeight="43.0" fitWidth="43.0" layoutX="376.0" layoutY="260.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="g5i" fitHeight="43.0" fitWidth="43.0" layoutX="376.0" layoutY="207.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="g6i" fitHeight="43.0" fitWidth="43.0" layoutX="376.0" layoutY="153.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/transparent.png" />
+         </image></ImageView>
+      <ImageView fx:id="g7i" fitHeight="43.0" fitWidth="43.0" layoutX="376.0" layoutY="101.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="g8i" fitHeight="43.0" fitWidth="43.0" layoutX="376.0" layoutY="48.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_knight.png" />
+         </image></ImageView>
+      <ImageView fx:id="f7i" fitHeight="43.0" fitWidth="43.0" layoutX="323.0" layoutY="102.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_pawn.png" />
+         </image></ImageView>
+      <ImageView fx:id="a7i" fitHeight="43.0" fitWidth="43.0" layoutX="58.0" layoutY="101.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/b_pawn.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

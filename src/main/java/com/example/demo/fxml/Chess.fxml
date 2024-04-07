@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controller.ChessController">
+    
+    <!-- Define the squares -->
+    <Rectangle fx:id="square1" style="-fx-fill: #f0d9b5;" onMouseClicked="#handleSquareClick" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <Rectangle fx:id="square2" style="-fx-fill: #b58863;" onMouseClicked="#handleSquareClick" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+    <!-- Repeat the above lines for the rest of the squares, up to square64 -->
+    ...
+    <Rectangle fx:id="square63" style="-fx-fill: #b58863;" onMouseClicked="#handleSquareClick" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+    <Rectangle fx:id="square64" style="-fx-fill: #f0d9b5;" onMouseClicked="#handleSquareClick" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+    
+</GridPane>

@@ -1,0 +1,26 @@
+.square {
+    -fx-fill: #f0d9b5; /* Light color for squares */
+}
+
+.selected-square {
+    -fx-fill: #a4c2d7; /* Color for selected square */
+}
+
+/* Styling for the chessboard */
+.grid-pane {
+    -fx-hgap: 0;
+    -fx-vgap: 0;
+    -fx-padding: 10;
+    -fx-background-color: #f0d9b5; /* Light color for chessboard background */
+}
+
+/* Styling for the squares */
+.square {
+    -fx-stroke: #8a6d3b; /* Border color for squares */
+    -fx-stroke-width: 1px;
+}
+
+/* Add alternate styles for black squares */
+.square:even {
+    -fx-fill: #b58863; /* Dark color for alternate squares */
+}
